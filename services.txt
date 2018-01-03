@@ -1,0 +1,1278 @@
+ACTIVITY MANAGER SERVICES (dumpsys activity services)
+  User 0 active services:
+  * ServiceRecord{271c305 u0 com.android.bluetooth/.hid.HidService}
+    intent={act=android.bluetooth.IBluetoothInputDevice cmp=com.android.bluetooth/.hid.HidService}
+    packageName=com.android.bluetooth
+    processName=com.android.bluetooth
+    baseDir=/system/app/Bluetooth/Bluetooth.apk
+    dataDir=/data/user_de/0/com.android.bluetooth
+    app=null
+    createTime=-1h4m45s897ms startingBgTimeout=--
+    lastActivity=-49m50s382ms restartTime=-- createdFromFg=true
+    Bindings:
+    * IntentBindRecord{eb9bf5a}:
+      intent={act=android.bluetooth.IBluetoothInputDevice cmp=com.android.bluetooth/.hid.HidService}
+      binder=null
+      requested=false received=false hasBound=false doRebind=false
+      * Client AppBindRecord{700158b ProcessRecord{4e29018 1864:com.android.systemui/u0a37}}
+        Per-process Connections:
+          ConnectionRecord{61b8c8d u0 com.android.bluetooth/.hid.HidService:@7408924}
+    All Connections:
+      ConnectionRecord{61b8c8d u0 com.android.bluetooth/.hid.HidService:@7408924}
+
+  * ServiceRecord{38161ac u0 org.codeaurora.ims/.ImsService}
+    intent={cmp=org.codeaurora.ims/.ImsService}
+    packageName=org.codeaurora.ims
+    processName=com.android.phone
+    baseDir=/system/vendor/app/ims/ims.apk
+    dataDir=/data/user/0/org.codeaurora.ims
+    app=ProcessRecord{933421c 1998:com.android.phone/1001}
+    createTime=-1h4m45s160ms startingBgTimeout=--
+    lastActivity=-49m49s646ms restartTime=-49m49s646ms createdFromFg=false
+    startRequested=true delayedStop=false stopIfKilled=false callStart=true lastStartId=1
+
+  * ServiceRecord{210fbf6 u0 com.yx/com.tencent.qalsdk.service.QalService}
+    intent={cmp=com.yx/com.tencent.qalsdk.service.QalService}
+    packageName=com.yx
+    processName=com.yx:QALSERVICE
+    baseDir=/data/app/com.yx-1/base.apk
+    dataDir=/data/user/0/com.yx
+    app=ProcessRecord{6a110c9 4289:com.yx:QALSERVICE/u0a517}
+    isForeground=true foregroundId=537049204 foregroundNoti=Notification(pri=-2 contentView=com.yx/0x10900b5 vibrate=null sound=null defaults=0x0 flags=0x62 color=0xff607d8b vis=PRIVATE)
+    createTime=-1h4m24s530ms startingBgTimeout=-49m14s15ms
+    lastActivity=-49m29s16ms restartTime=-49m29s16ms createdFromFg=false
+    startRequested=true delayedStop=false stopIfKilled=false callStart=true lastStartId=1
+
+  * ServiceRecord{718e6ae u0 com.moji.mjweather/com.moji.weatherprovider.Service.WeatherUpdateService}
+    intent={cmp=com.moji.mjweather/com.moji.weatherprovider.Service.WeatherUpdateService}
+    packageName=com.moji.mjweather
+    processName=com.moji.mjweather
+    baseDir=/data/app/com.moji.mjweather-2/base.apk
+    dataDir=/data/user/0/com.moji.mjweather
+    app=ProcessRecord{97497a8 2343:com.moji.mjweather/u0a405}
+    createTime=-1h3m42s228ms startingBgTimeout=--
+    lastActivity=-12m23s666ms restartTime=-48m46s714ms createdFromFg=true
+    startRequested=true delayedStop=false stopIfKilled=false callStart=true lastStartId=3
+
+  * ServiceRecord{53edc1b u0 com.qualcomm.location/.LocationService}
+    intent={act=com.qualcomm.location.LocationService cmp=com.qualcomm.location/.LocationService}
+    packageName=com.qualcomm.location
+    processName=system
+    baseDir=/system/priv-app/com.qualcomm.location/com.qualcomm.location.apk
+    dataDir=/data/user/0/com.qualcomm.location
+    app=ProcessRecord{57fe2 1561:system/1000}
+    createTime=-1h4m38s274ms startingBgTimeout=--
+    lastActivity=-49m36s291ms restartTime=-49m42s760ms createdFromFg=true
+    startRequested=true delayedStop=false stopIfKilled=false callStart=true lastStartId=2
+
+  * ServiceRecord{2fb9e9b u0 com.android.systemui/com.lenovo.artlock.gallery.load.GalleryLoader}
+    intent={cmp=com.android.systemui/com.lenovo.artlock.gallery.load.GalleryLoader}
+    packageName=com.android.systemui
+    processName=com.android.systemui
+    permission=android.permission.BIND_DREAM_SERVICE
+    baseDir=/system/priv-app/XuiSystemUI/XuiSystemUI.apk
+    dataDir=/data/user_de/0/com.android.systemui
+    app=ProcessRecord{4e29018 1864:com.android.systemui/u0a37}
+    createTime=-1h4m45s465ms startingBgTimeout=--
+    lastActivity=-49m49s951ms restartTime=-49m49s951ms createdFromFg=true
+    Bindings:
+    * IntentBindRecord{61bb668 CREATE}:
+      intent={cmp=com.android.systemui/com.lenovo.artlock.gallery.load.GalleryLoader}
+      binder=android.os.BinderProxy@7d08a81
+      requested=true received=true hasBound=true doRebind=false
+      * Client AppBindRecord{ec47726 ProcessRecord{4e29018 1864:com.android.systemui/u0a37}}
+        Per-process Connections:
+          ConnectionRecord{c5882aa u0 CR com.android.systemui/com.lenovo.artlock.gallery.load.GalleryLoader:@42f4195}
+    All Connections:
+      ConnectionRecord{c5882aa u0 CR com.android.systemui/com.lenovo.artlock.gallery.load.GalleryLoader:@42f4195}
+
+  * ServiceRecord{f1cddf5 u0 com.qualcomm.qti.modemtestmode/.MbnSystemService}
+    intent={cmp=com.qualcomm.qti.modemtestmode/.MbnSystemService}
+    packageName=com.qualcomm.qti.modemtestmode
+    processName=com.qualcomm.qti.modemtestmode
+    baseDir=/system/app/ModemTestMode/ModemTestMode.apk
+    dataDir=/data/user/0/com.qualcomm.qti.modemtestmode
+    app=ProcessRecord{da3e583 3832:com.qualcomm.qti.modemtestmode/1000}
+    createTime=-1h4m31s601ms startingBgTimeout=-49m21s84ms
+    lastActivity=-49m36s87ms restartTime=-49m36s87ms createdFromFg=false
+    startRequested=true delayedStop=false stopIfKilled=false callStart=true lastStartId=1
+
+  * ServiceRecord{3880279 u0 com.yx/.pushed.WatchDogImp$WatchDogService}
+    intent={cmp=com.yx/.pushed.WatchDogImp$WatchDogService}
+    packageName=com.yx
+    processName=com.yx:watchdog
+    baseDir=/data/app/com.yx-1/base.apk
+    dataDir=/data/user/0/com.yx
+    app=ProcessRecord{3587f67 3442:com.yx:watchdog/u0a517}
+    isForeground=true foregroundId=43 foregroundNoti=Notification(pri=-2 contentView=com.yx/0x10900b5 vibrate=null sound=null defaults=0x0 flags=0x62 color=0xff607d8b vis=PRIVATE)
+    createTime=-1h4m36s551ms startingBgTimeout=-49m26s36ms
+    lastActivity=-49m41s37ms restartTime=-49m41s37ms createdFromFg=false
+    startRequested=true delayedStop=false stopIfKilled=false callStart=true lastStartId=1
+
+  * ServiceRecord{d97030a u0 com.android.systemui/.keyguard.KeyguardService}
+    intent={cmp=com.android.systemui/.keyguard.KeyguardService}
+    packageName=com.android.systemui
+    processName=com.android.systemui
+    baseDir=/system/priv-app/XuiSystemUI/XuiSystemUI.apk
+    dataDir=/data/user_de/0/com.android.systemui
+    app=ProcessRecord{4e29018 1864:com.android.systemui/u0a37}
+    createTime=-1h4m46s658ms startingBgTimeout=--
+    lastActivity=-38m4s301ms restartTime=-49m51s142ms createdFromFg=true
+    Bindings:
+    * IntentBindRecord{429d114 CREATE}:
+      intent={flg=0x100 cmp=com.android.systemui/.keyguard.KeyguardService}
+      binder=android.os.BinderProxy@cfa4dbd
+      requested=true received=true hasBound=true doRebind=false
+      * Client AppBindRecord{770dfb2 ProcessRecord{57fe2 1561:system/1000}}
+        Per-process Connections:
+          ConnectionRecord{7100775 u0 CR com.android.systemui/.keyguard.KeyguardService:@62ffeac}
+      * Client AppBindRecord{4e3ab03 ProcessRecord{4e29018 1864:com.android.systemui/u0a37}}
+        Per-process Connections:
+          ConnectionRecord{24ae55f u0 CR com.android.systemui/.keyguard.KeyguardService:@83959fe}
+    All Connections:
+      ConnectionRecord{7100775 u0 CR com.android.systemui/.keyguard.KeyguardService:@62ffeac}
+      ConnectionRecord{24ae55f u0 CR com.android.systemui/.keyguard.KeyguardService:@83959fe}
+
+  * ServiceRecord{ab621b8 u0 com.qualcomm.location/.izat.IzatService}
+    intent={act=com.qualcomm.location.izat.IzatService cmp=com.qualcomm.location/.izat.IzatService}
+    packageName=com.qualcomm.location
+    processName=system
+    permission=android.permission.ACCESS_FINE_LOCATION
+    baseDir=/system/priv-app/com.qualcomm.location/com.qualcomm.location.apk
+    dataDir=/data/user/0/com.qualcomm.location
+    app=ProcessRecord{57fe2 1561:system/1000}
+    createTime=-1h4m38s273ms startingBgTimeout=--
+    lastActivity=-49m36s291ms restartTime=-49m42s758ms createdFromFg=true
+    startRequested=true delayedStop=false stopIfKilled=false callStart=true lastStartId=2
+
+  * ServiceRecord{226436f u0 com.android.systemui/.ImageWallpaper}
+    intent={act=android.service.wallpaper.WallpaperService cmp=com.android.systemui/.ImageWallpaper}
+    packageName=com.android.systemui
+    processName=com.android.systemui
+    permission=android.permission.BIND_WALLPAPER
+    baseDir=/system/priv-app/XuiSystemUI/XuiSystemUI.apk
+    dataDir=/data/user_de/0/com.android.systemui
+    app=ProcessRecord{4e29018 1864:com.android.systemui/u0a37}
+    createTime=-1h4m48s509ms startingBgTimeout=--
+    lastActivity=-49m52s47ms restartTime=-49m52s956ms createdFromFg=true
+    Bindings:
+    * IntentBindRecord{a5cea80 CREATE}:
+      intent={act=android.service.wallpaper.WallpaperService cmp=com.android.systemui/.ImageWallpaper}
+      binder=android.os.BinderProxy@80308b9
+      requested=true received=true hasBound=true doRebind=false
+      * Client AppBindRecord{e0944fe ProcessRecord{57fe2 1561:system/1000}}
+        Per-process Connections:
+          ConnectionRecord{3561519 u0 CR FGSA UI com.android.systemui/.ImageWallpaper:@fdcec60}
+    All Connections:
+      ConnectionRecord{3561519 u0 CR FGSA UI com.android.systemui/.ImageWallpaper:@fdcec60}
+
+  * ServiceRecord{32a6471 u0 com.qualcomm.qti.tetherservice/.TetherService}
+    intent={cmp=com.qualcomm.qti.tetherservice/.TetherService}
+    packageName=com.qualcomm.qti.tetherservice
+    processName=.dataservices
+    baseDir=/system/priv-app/QtiTetherService/QtiTetherService.apk
+    dataDir=/data/user/0/com.qualcomm.qti.tetherservice
+    app=ProcessRecord{76bf45f 2955:.dataservices/1000}
+    createTime=-1h4m31s577ms startingBgTimeout=--
+    lastActivity=-49m36s63ms restartTime=-49m36s63ms createdFromFg=true
+    startRequested=true delayedStop=false stopIfKilled=false callStart=true lastStartId=1
+
+  * ServiceRecord{cdc1758 u0 com.amap.android.location/.NetworkLocationService}
+    intent={act=com.android.location.service.v3.NetworkLocationProvider cmp=com.amap.android.location/.NetworkLocationService}
+    packageName=com.amap.android.location
+    processName=com.amap.android.location
+    permission=android.permission.WRITE_SECURE_SETTINGS
+    baseDir=/system/priv-app/NetworkLocation/NetworkLocation.apk
+    dataDir=/data/user/0/com.amap.android.location
+    app=ProcessRecord{a206821 3209:com.amap.android.location/u0a22}
+    createTime=-1h4m38s569ms startingBgTimeout=--
+    lastActivity=-49m42s997ms restartTime=-49m42s997ms createdFromFg=true
+    Bindings:
+    * IntentBindRecord{de62eac CREATE}:
+      intent={act=com.android.location.service.v3.NetworkLocationProvider cmp=com.amap.android.location/.NetworkLocationService}
+      binder=android.os.BinderProxy@2427775
+      requested=true received=true hasBound=true doRebind=false
+      * Client AppBindRecord{30b30a ProcessRecord{57fe2 1561:system/1000}}
+        Per-process Connections:
+          ConnectionRecord{f175428 u0 CR !FG !VIS com.amap.android.location/.NetworkLocationService:@bd4924b}
+    All Connections:
+      ConnectionRecord{f175428 u0 CR !FG !VIS com.amap.android.location/.NetworkLocationService:@bd4924b}
+
+  * ServiceRecord{46d73ff u0 com.anddoes.launcher/.ApexService}
+    intent={cmp=com.anddoes.launcher/.ApexService}
+    packageName=com.anddoes.launcher
+    processName=com.anddoes.launcher
+    baseDir=/data/app/com.anddoes.launcher-1/base.apk
+    dataDir=/data/user/0/com.anddoes.launcher
+    app=ProcessRecord{74d337a 6029:com.anddoes.launcher/u0a114}
+    isForeground=true foregroundId=1 foregroundNoti=Notification(pri=-2 contentView=com.anddoes.launcher/0x10900b5 vibrate=null sound=null tick defaults=0x0 flags=0x40 color=0x00000000 vis=PRIVATE)
+    createTime=-38m41s150ms startingBgTimeout=--
+    lastActivity=-38m41s150ms restartTime=-38m41s150ms createdFromFg=true
+    startRequested=true delayedStop=false stopIfKilled=false callStart=true lastStartId=1
+
+  * ServiceRecord{5737f0e u0 com.sohu.inputmethod.sogou.zui/.SogouIME}
+    intent={act=android.view.InputMethod cmp=com.sohu.inputmethod.sogou.zui/.SogouIME}
+    packageName=com.sohu.inputmethod.sogou.zui
+    processName=com.sohu.inputmethod.sogou.zui
+    permission=android.permission.BIND_INPUT_METHOD
+    baseDir=/data/app/SogouInput/SogouInput.apk
+    dataDir=/data/user/0/com.sohu.inputmethod.sogou.zui
+    app=ProcessRecord{f05777b 3088:com.sohu.inputmethod.sogou.zui/u0a87}
+    createTime=-43m18s112ms startingBgTimeout=--
+    lastActivity=-43m14s18ms restartTime=-43m18s112ms createdFromFg=true
+    Bindings:
+    * IntentBindRecord{3dd8998 CREATE}:
+      intent={act=android.view.InputMethod cmp=com.sohu.inputmethod.sogou.zui/.SogouIME}
+      binder=android.os.BinderProxy@8d015f1
+      requested=true received=true hasBound=true doRebind=false
+      * Client AppBindRecord{aef5d6 ProcessRecord{57fe2 1561:system/1000}}
+        Per-process Connections:
+          ConnectionRecord{dc8a109 u0 CR !FG UI !VIS com.sohu.inputmethod.sogou.zui/.SogouIME:@5f37210}
+    All Connections:
+      ConnectionRecord{dc8a109 u0 CR !FG UI !VIS com.sohu.inputmethod.sogou.zui/.SogouIME:@5f37210}
+
+  * ServiceRecord{f40029c u0 com.dsi.ant.server/.AntService}
+    intent={act=com.dsi.ant.server.IAntHal}
+    packageName=com.dsi.ant.server
+    processName=system
+    permission=com.dsi.ant.permission.ANTRADIO
+    baseDir=/system/app/AntHalService/AntHalService.apk
+    dataDir=/data/user/0/com.dsi.ant.server
+    app=ProcessRecord{57fe2 1561:system/1000}
+    createTime=-1h4m32s104ms startingBgTimeout=--
+    lastActivity=-49m36s590ms restartTime=-49m36s590ms createdFromFg=true
+    startRequested=true delayedStop=false stopIfKilled=true callStart=true lastStartId=1
+
+  * ServiceRecord{5bbd51f u0 com.qualcomm.location/.izatserviceprovider.service.UnifiedLocationService}
+    intent={act=com.android.location.service.FusedLocationProvider cmp=com.qualcomm.location/.izatserviceprovider.service.UnifiedLocationService}
+    packageName=com.qualcomm.location
+    processName=system
+    permission=android.permission.WRITE_SECURE_SETTINGS
+    baseDir=/system/priv-app/com.qualcomm.location/com.qualcomm.location.apk
+    dataDir=/data/user/0/com.qualcomm.location
+    app=ProcessRecord{57fe2 1561:system/1000}
+    createTime=-1h4m38s518ms startingBgTimeout=--
+    lastActivity=-49m43s4ms restartTime=-49m43s4ms createdFromFg=true
+    Bindings:
+    * IntentBindRecord{2ea1057 CREATE}:
+      intent={act=com.android.location.service.FusedLocationProvider cmp=com.qualcomm.location/.izatserviceprovider.service.UnifiedLocationService}
+      binder=com.android.location.provider.LocationProviderBase$Service@8eda744
+      requested=true received=true hasBound=true doRebind=false
+      * Client AppBindRecord{8bf202d ProcessRecord{57fe2 1561:system/1000}}
+        Per-process Connections:
+          ConnectionRecord{19d30be u0 CR !FG !VIS com.qualcomm.location/.izatserviceprovider.service.UnifiedLocationService:@8884b79}
+    All Connections:
+      ConnectionRecord{19d30be u0 CR !FG !VIS com.qualcomm.location/.izatserviceprovider.service.UnifiedLocationService:@8884b79}
+
+  * ServiceRecord{bc32585 u0 com.zui.xlog/.XlogDbService}
+    intent={cmp=com.zui.xlog/.XlogDbService}
+    packageName=com.zui.xlog
+    processName=com.zui.xlog
+    baseDir=/system/priv-app/Xlog/Xlog.apk
+    dataDir=/data/user/0/com.zui.xlog
+    app=ProcessRecord{f5de0 3221:com.zui.xlog/u0a30}
+    createTime=-42m44s25ms startingBgTimeout=--
+    lastActivity=-41m26s998ms restartTime=-42m44s25ms createdFromFg=true
+    startRequested=true delayedStop=false stopIfKilled=false callStart=true lastStartId=5
+
+  * ServiceRecord{e3240e7 u0 com.zui.usercenter/com.lenovo.services.PushService}
+    intent={cmp=com.zui.usercenter/com.lenovo.services.PushService}
+    packageName=com.zui.usercenter
+    processName=com.zui.usercenter
+    permission=com.lenovo.personalcenter.PUSHSERVICE
+    baseDir=/data/app/com.zui.usercenter-1/base.apk
+    dataDir=/data/user/0/com.zui.usercenter
+    app=ProcessRecord{4fc9962 4308:com.zui.usercenter/u0a81}
+    createTime=-1h4m24s249ms startingBgTimeout=-49m13s733ms
+    lastActivity=-10s76ms restartTime=-49m28s735ms createdFromFg=false
+    startRequested=true delayedStop=false stopIfKilled=false callStart=true lastStartId=3
+
+  * ServiceRecord{2dac1a7 u0 com.moji.mjweather/com.moji.api.service.APIBGService}
+    intent={cmp=com.moji.mjweather/com.moji.api.service.APIBGService}
+    packageName=com.moji.mjweather
+    processName=com.moji.mjweather
+    baseDir=/data/app/com.moji.mjweather-2/base.apk
+    dataDir=/data/user/0/com.moji.mjweather
+    app=ProcessRecord{97497a8 2343:com.moji.mjweather/u0a405}
+    createTime=-1h4m42s811ms startingBgTimeout=--
+    lastActivity=-43m19s262ms restartTime=-49m47s297ms createdFromFg=true
+    Bindings:
+    * IntentBindRecord{a155af3 CREATE}:
+      intent={cmp=com.moji.mjweather/com.moji.api.service.APIBGService}
+      binder=android.os.BinderProxy@7bff3b0
+      requested=true received=true hasBound=true doRebind=false
+      * Client AppBindRecord{31a9229 ProcessRecord{24b6bb5 2529:com.moji.mjweather:mjskin/u0a405}}
+        Per-process Connections:
+          ConnectionRecord{62025bb u0 CR com.moji.mjweather/com.moji.api.service.APIBGService:@7ec324a}
+      * Client AppBindRecord{f8ee9ae ProcessRecord{5483037 4141:com.moji.mjweather:pushservice/u0a405}}
+        Per-process Connections:
+          ConnectionRecord{c46f30d u0 CR com.moji.mjweather/com.moji.api.service.APIBGService:@ff779a4}
+      * Client AppBindRecord{5a0b34f ProcessRecord{97497a8 2343:com.moji.mjweather/u0a405}}
+        Per-process Connections:
+          ConnectionRecord{395a66 u0 CR com.moji.mjweather/com.moji.api.service.APIBGService:@c9f2c1}
+      * Client AppBindRecord{a289adc ProcessRecord{a6f7e26 3678:com.moji.mjweather:phone_monitor/u0a405}}
+        Per-process Connections:
+          ConnectionRecord{d85b014 u0 CR com.moji.mjweather/com.moji.api.service.APIBGService:@14c7a67}
+      * Client AppBindRecord{4a127e5 ProcessRecord{bfd7f7b 5007:com.moji.mjweather:monitorService/u0a405}}
+        Per-process Connections:
+          ConnectionRecord{f5b5df1 u0 CR com.moji.mjweather/com.moji.api.service.APIBGService:@be8f198}
+    All Connections:
+      ConnectionRecord{395a66 u0 CR com.moji.mjweather/com.moji.api.service.APIBGService:@c9f2c1}
+      ConnectionRecord{d85b014 u0 CR com.moji.mjweather/com.moji.api.service.APIBGService:@14c7a67}
+      ConnectionRecord{62025bb u0 CR com.moji.mjweather/com.moji.api.service.APIBGService:@7ec324a}
+      ConnectionRecord{f5b5df1 u0 CR com.moji.mjweather/com.moji.api.service.APIBGService:@be8f198}
+      ConnectionRecord{c46f30d u0 CR com.moji.mjweather/com.moji.api.service.APIBGService:@ff779a4}
+
+  * ServiceRecord{2e3f2ba u0 com.android.bluetooth/.pbap.BluetoothPbapService}
+    intent={act=android.bluetooth.IBluetoothPbap cmp=com.android.bluetooth/.pbap.BluetoothPbapService}
+    packageName=com.android.bluetooth
+    processName=com.android.bluetooth
+    baseDir=/system/app/Bluetooth/Bluetooth.apk
+    dataDir=/data/user_de/0/com.android.bluetooth
+    app=null
+    createTime=-1h4m45s888ms startingBgTimeout=--
+    lastActivity=-49m50s373ms restartTime=-- createdFromFg=true
+    Bindings:
+    * IntentBindRecord{4df356b}:
+      intent={act=android.bluetooth.IBluetoothPbap cmp=com.android.bluetooth/.pbap.BluetoothPbapService}
+      binder=null
+      requested=false received=false hasBound=false doRebind=false
+      * Client AppBindRecord{11288c8 ProcessRecord{4e29018 1864:com.android.systemui/u0a37}}
+        Per-process Connections:
+          ConnectionRecord{af139a u0 com.android.bluetooth/.pbap.BluetoothPbapService:@ed2c045}
+    All Connections:
+      ConnectionRecord{af139a u0 com.android.bluetooth/.pbap.BluetoothPbapService:@ed2c045}
+
+  * ServiceRecord{b221c98 u0 com.zf.daemon/.RemoteService}
+    intent={cmp=com.zf.daemon/.RemoteService}
+    packageName=com.zf.daemon
+    processName=com.zf.daemon:remote
+    baseDir=/data/app/com.zf.daemon-1/base.apk
+    dataDir=/data/user/0/com.zf.daemon
+    app=ProcessRecord{7ccacf1 6465:com.zf.daemon:remote/u0a515}
+    createTime=-30m19s566ms startingBgTimeout=--
+    lastActivity=-30m19s527ms restartTime=-30m19s527ms createdFromFg=true
+    startRequested=true delayedStop=false stopIfKilled=false callStart=true lastStartId=1
+    Bindings:
+    * IntentBindRecord{f89aa8}:
+      intent={cmp=com.zf.daemon/.RemoteService}
+      binder=android.os.BinderProxy@ee939c1
+      requested=true received=true hasBound=true doRebind=false
+      * Client AppBindRecord{52c9566 ProcessRecord{bd39e75 6418:com.zf.daemon/u0a515}}
+        Per-process Connections:
+          ConnectionRecord{b04767b u0 IMP com.zf.daemon/.RemoteService:@6e04e0a}
+    All Connections:
+      ConnectionRecord{b04767b u0 IMP com.zf.daemon/.RemoteService:@6e04e0a}
+
+  * ServiceRecord{41d10a8 u0 com.moji.mjweather/cn.com.iresearch.phonemonitor.library.heartbeat.HeartbeatJobService}
+    intent={cmp=com.moji.mjweather/cn.com.iresearch.phonemonitor.library.heartbeat.HeartbeatJobService}
+    packageName=com.moji.mjweather
+    processName=com.moji.mjweather
+    permission=android.permission.BIND_JOB_SERVICE
+    baseDir=/data/app/com.moji.mjweather-2/base.apk
+    dataDir=/data/user/0/com.moji.mjweather
+    app=ProcessRecord{97497a8 2343:com.moji.mjweather/u0a405}
+    createTime=-1h4m33s476ms startingBgTimeout=-49m22s960ms
+    lastActivity=-49m37s961ms restartTime=-49m37s961ms createdFromFg=false
+    startRequested=true delayedStop=false stopIfKilled=true callStart=true lastStartId=1
+
+  * ServiceRecord{f2b6974 u0 com.android.bluetooth/.a2dp.A2dpService}
+    intent={act=android.bluetooth.IBluetoothA2dp cmp=com.android.bluetooth/.a2dp.A2dpService}
+    packageName=com.android.bluetooth
+    processName=com.android.bluetooth
+    baseDir=/system/app/Bluetooth/Bluetooth.apk
+    dataDir=/data/user_de/0/com.android.bluetooth
+    app=null
+    createTime=-1h4m48s465ms startingBgTimeout=--
+    lastActivity=-49m52s950ms restartTime=-- createdFromFg=true
+    Bindings:
+    * IntentBindRecord{3556e9d}:
+      intent={act=android.bluetooth.IBluetoothA2dp cmp=com.android.bluetooth/.a2dp.A2dpService}
+      binder=null
+      requested=false received=false hasBound=false doRebind=false
+      * Client AppBindRecord{d821f12 ProcessRecord{57fe2 1561:system/1000}}
+        Per-process Connections:
+          ConnectionRecord{2ca595a u0 com.android.bluetooth/.a2dp.A2dpService:@45c8505}
+    All Connections:
+      ConnectionRecord{2ca595a u0 com.android.bluetooth/.a2dp.A2dpService:@45c8505}
+
+  * ServiceRecord{9e0e713 u0 com.qualcomm.qcrilmsgtunnel/.QcrilMsgTunnelService}
+    intent={cmp=com.qualcomm.qcrilmsgtunnel/.QcrilMsgTunnelService}
+    packageName=com.qualcomm.qcrilmsgtunnel
+    processName=com.qualcomm.qcrilmsgtunnel
+    permission=com.qualcomm.permission.USE_QCRIL_MSG_TUNNEL
+    baseDir=/system/priv-app/qcrilmsgtunnel/qcrilmsgtunnel.apk
+    dataDir=/data/user/0/com.qualcomm.qcrilmsgtunnel
+    app=ProcessRecord{fcae6e3 2092:com.qualcomm.qcrilmsgtunnel/1001}
+    createTime=-1h4m46s733ms startingBgTimeout=--
+    lastActivity=-49m36s58ms restartTime=-49m51s172ms createdFromFg=true
+    startRequested=true delayedStop=false stopIfKilled=false callStart=true lastStartId=5
+    Bindings:
+    * IntentBindRecord{24fa8e0 CREATE}:
+      intent={cmp=com.qualcomm.qcrilmsgtunnel/.QcrilMsgTunnelService}
+      binder=android.os.BinderProxy@e9f5799
+      requested=true received=true hasBound=true doRebind=false
+      * Client AppBindRecord{fdf1a5e ProcessRecord{933421c 1998:com.android.phone/1001}}
+        Per-process Connections:
+          ConnectionRecord{22d42d7 u0 CR com.qualcomm.qcrilmsgtunnel/.QcrilMsgTunnelService:@40d6256}
+          ConnectionRecord{9050ee8 u0 CR com.qualcomm.qcrilmsgtunnel/.QcrilMsgTunnelService:@5cd800b}
+          ConnectionRecord{d5f0bfa u0 CR com.qualcomm.qcrilmsgtunnel/.QcrilMsgTunnelService:@69fde25}
+      * Client AppBindRecord{ebb0e3f ProcessRecord{da3e583 3832:com.qualcomm.qti.modemtestmode/1000}}
+        Per-process Connections:
+          ConnectionRecord{70c0739 u0 CR com.qualcomm.qcrilmsgtunnel/.QcrilMsgTunnelService:@508d300}
+    All Connections:
+      ConnectionRecord{22d42d7 u0 CR com.qualcomm.qcrilmsgtunnel/.QcrilMsgTunnelService:@40d6256}
+      ConnectionRecord{70c0739 u0 CR com.qualcomm.qcrilmsgtunnel/.QcrilMsgTunnelService:@508d300}
+      ConnectionRecord{9050ee8 u0 CR com.qualcomm.qcrilmsgtunnel/.QcrilMsgTunnelService:@5cd800b}
+      ConnectionRecord{d5f0bfa u0 CR com.qualcomm.qcrilmsgtunnel/.QcrilMsgTunnelService:@69fde25}
+
+  * ServiceRecord{b64ec80 u0 com.redteamobile.virtual.softsim/.SoftSimService}
+    intent={cmp=com.redteamobile.virtual.softsim/.SoftSimService}
+    packageName=com.redteamobile.virtual.softsim
+    processName=com.redteamobile.virtual.softsim
+    permission=com.redteamobile.virtual.permission.USE_SOFTSIM
+    baseDir=/system/app/XuiZService/XuiZService.apk
+    dataDir=/data/user/0/com.redteamobile.virtual.softsim
+    app=ProcessRecord{a8eba57 4058:com.redteamobile.virtual.softsim/u0a71}
+    createTime=-1h4m28s437ms startingBgTimeout=--
+    lastActivity=-49m32s877ms restartTime=-49m32s877ms createdFromFg=false
+    Bindings:
+    * IntentBindRecord{7b6730c CREATE}:
+      intent={cmp=com.redteamobile.virtual.softsim/.SoftSimService}
+      binder=android.os.BinderProxy@704d455
+      requested=true received=true hasBound=true doRebind=false
+      * Client AppBindRecord{47e7e6a ProcessRecord{cd79f8b 4029:com.zui.zroaming/u0a65}}
+        Per-process Connections:
+          ConnectionRecord{a3c2481 u0 CR com.redteamobile.virtual.softsim/.SoftSimService:@aed7868}
+    All Connections:
+      ConnectionRecord{a3c2481 u0 CR com.redteamobile.virtual.softsim/.SoftSimService:@aed7868}
+
+  * ServiceRecord{c44b126 u0 com.android.systemui/.SystemUIService}
+    intent={cmp=com.android.systemui/.SystemUIService}
+    packageName=com.android.systemui
+    processName=com.android.systemui
+    baseDir=/system/priv-app/XuiSystemUI/XuiSystemUI.apk
+    dataDir=/data/user_de/0/com.android.systemui
+    app=ProcessRecord{4e29018 1864:com.android.systemui/u0a37}
+    createTime=-1h4m48s227ms startingBgTimeout=--
+    lastActivity=-49m52s713ms restartTime=-49m52s713ms createdFromFg=true
+    startRequested=true delayedStop=false stopIfKilled=false callStart=true lastStartId=1
+
+  * ServiceRecord{a22acc2 u0 com.zui.wifisafe/.service.WifiCheckService}
+    intent={act=com.zui.wifisafe.action.START_APP pkg=com.zui.wifisafe}
+    packageName=com.zui.wifisafe
+    processName=com.zui.wifisafe
+    baseDir=/system/priv-app/XuiSecurityWifi/XuiSecurityWifi.apk
+    dataDir=/data/user/0/com.zui.wifisafe
+    app=ProcessRecord{45c4f5b 3049:com.zui.wifisafe/1000}
+    createTime=-1h4m36s846ms startingBgTimeout=--
+    lastActivity=-49m41s332ms restartTime=-49m41s332ms createdFromFg=true
+    Bindings:
+    * IntentBindRecord{6ddb3f8 CREATE}:
+      intent={act=com.zui.wifisafe.action.START_APP pkg=com.zui.wifisafe}
+      binder=android.os.BinderProxy@30b60d1
+      requested=true received=true hasBound=true doRebind=false
+      * Client AppBindRecord{5fe1736 ProcessRecord{647655c 2968:com.zui.safecenter/1000}}
+        Per-process Connections:
+          ConnectionRecord{4ede50d u0 CR com.zui.wifisafe/.service.WifiCheckService:@bfaf3a4}
+    All Connections:
+      ConnectionRecord{4ede50d u0 CR com.zui.wifisafe/.service.WifiCheckService:@bfaf3a4}
+
+  * ServiceRecord{5c21287 u0 android/.hardware.location.GeofenceHardwareService}
+    intent={cmp=android/.hardware.location.GeofenceHardwareService}
+    packageName=android
+    processName=system
+    permission=android.permission.LOCATION_HARDWARE
+    baseDir=/system/framework/framework-res.apk
+    dataDir=null
+    app=ProcessRecord{57fe2 1561:system/1000}
+    createTime=-1h4m47s461ms startingBgTimeout=--
+    lastActivity=-49m51s947ms restartTime=-49m51s947ms createdFromFg=true
+    Bindings:
+    * IntentBindRecord{2068637 CREATE}:
+      intent={cmp=android/.hardware.location.GeofenceHardwareService}
+      binder=android.hardware.location.GeofenceHardwareService$1@f3617a4
+      requested=true received=true hasBound=true doRebind=false
+      * Client AppBindRecord{214390d ProcessRecord{57fe2 1561:system/1000}}
+        Per-process Connections:
+          ConnectionRecord{e99e2c6 u0 CR android/.hardware.location.GeofenceHardwareService:@76fe0a1}
+    All Connections:
+      ConnectionRecord{e99e2c6 u0 CR android/.hardware.location.GeofenceHardwareService:@76fe0a1}
+
+  * ServiceRecord{7f5950c u0 com.moji.mjweather/com.moji.push.MJPushService}
+    intent={cmp=com.moji.mjweather/com.moji.push.MJPushService}
+    packageName=com.moji.mjweather
+    processName=com.moji.mjweather:pushservice
+    baseDir=/data/app/com.moji.mjweather-2/base.apk
+    dataDir=/data/user/0/com.moji.mjweather
+    app=ProcessRecord{5483037 4141:com.moji.mjweather:pushservice/u0a405}
+    createTime=-1h4m27s676ms startingBgTimeout=--
+    lastActivity=-10s109ms restartTime=-49m32s143ms createdFromFg=true
+    startRequested=true delayedStop=false stopIfKilled=false callStart=true lastStartId=16
+
+  * ServiceRecord{bd4462a u0 com.qualcomm.location/.LBSSystemMonitorService}
+    intent={cmp=com.qualcomm.location/.LBSSystemMonitorService}
+    packageName=com.qualcomm.location
+    processName=system
+    baseDir=/system/priv-app/com.qualcomm.location/com.qualcomm.location.apk
+    dataDir=/data/user/0/com.qualcomm.location
+    app=ProcessRecord{57fe2 1561:system/1000}
+    createTime=-1h4m38s279ms startingBgTimeout=--
+    lastActivity=-49m36s293ms restartTime=-49m42s765ms createdFromFg=true
+    startRequested=true delayedStop=false stopIfKilled=false callStart=true lastStartId=2
+
+  * ServiceRecord{efd4d4c u0 com.android.systemui/com.lenovo.artlock.download.LoadService}
+    intent={cmp=com.android.systemui/com.lenovo.artlock.download.LoadService}
+    packageName=com.android.systemui
+    processName=com.android.systemui
+    permission=android.permission.BIND_DREAM_SERVICE
+    baseDir=/system/priv-app/XuiSystemUI/XuiSystemUI.apk
+    dataDir=/data/user_de/0/com.android.systemui
+    app=ProcessRecord{4e29018 1864:com.android.systemui/u0a37}
+    createTime=-1h4m45s471ms startingBgTimeout=--
+    lastActivity=-49m49s957ms restartTime=-49m49s957ms createdFromFg=true
+    Bindings:
+    * IntentBindRecord{90c70c2 CREATE}:
+      intent={cmp=com.android.systemui/com.lenovo.artlock.download.LoadService}
+      binder=android.os.BinderProxy@cb34ed3
+      requested=true received=true hasBound=true doRebind=false
+      * Client AppBindRecord{48f0a10 ProcessRecord{4e29018 1864:com.android.systemui/u0a37}}
+        Per-process Connections:
+          ConnectionRecord{47e97f u0 CR com.android.systemui/com.lenovo.artlock.download.LoadService:@af55a9e}
+    All Connections:
+      ConnectionRecord{47e97f u0 CR com.android.systemui/com.lenovo.artlock.download.LoadService:@af55a9e}
+
+  * ServiceRecord{33c64ba u0 com.android.vendors.bridge.softsim/.SoftSimService}
+    intent={cmp=com.android.vendors.bridge.softsim/.SoftSimService}
+    packageName=com.android.vendors.bridge.softsim
+    processName=com.android.vendors.bridge.softsim
+    permission=com.android.vendors.bridge.permission.USE_SOFTSIM
+    baseDir=/system/app/XuiZBridge/XuiZBridge.apk
+    dataDir=/data/user/0/com.android.vendors.bridge.softsim
+    app=ProcessRecord{e585909 4106:com.android.vendors.bridge.softsim/1001}
+    createTime=-1h4m27s915ms startingBgTimeout=--
+    lastActivity=-49m32s377ms restartTime=-49m32s377ms createdFromFg=false
+    Bindings:
+    * IntentBindRecord{cb4d70e CREATE}:
+      intent={cmp=com.android.vendors.bridge.softsim/.SoftSimService}
+      binder=android.os.BinderProxy@55a052f
+      requested=true received=true hasBound=true doRebind=false
+      * Client AppBindRecord{642b73c ProcessRecord{a8eba57 4058:com.redteamobile.virtual.softsim/u0a71}}
+        Per-process Connections:
+          ConnectionRecord{a2c21e5 u0 CR com.android.vendors.bridge.softsim/.SoftSimService:@77b3cdc}
+    All Connections:
+      ConnectionRecord{a2c21e5 u0 CR com.android.vendors.bridge.softsim/.SoftSimService:@77b3cdc}
+
+  * ServiceRecord{cf857b u0 com.tencent.mtt/.browser.push.service.PushRemoteService}
+    intent={act=com.tencent.mtt.service.ACTION_DEFAULT cmp=com.tencent.mtt/.browser.push.service.PushRemoteService}
+    packageName=com.tencent.mtt
+    processName=com.tencent.mtt:service
+    baseDir=/data/app/com.tencent.mtt-1/base.apk
+    dataDir=/data/user/0/com.tencent.mtt
+    app=ProcessRecord{2a47cc5 2390:com.tencent.mtt:service/u0a113}
+    isForeground=true foregroundId=100000 foregroundNoti=Notification(pri=-2 contentView=com.tencent.mtt/0x10900b5 vibrate=null sound=null defaults=0x0 flags=0x40 color=0xff607d8b vis=PRIVATE)
+    createTime=-1h4m41s524ms startingBgTimeout=--
+    lastActivity=-49m46s10ms restartTime=-49m46s10ms createdFromFg=true
+    startRequested=true delayedStop=false stopIfKilled=true callStart=true lastStartId=1
+
+  * ServiceRecord{655271e u0 com.yx/.screenrecorder.ScreenRecordService}
+    intent={cmp=com.yx/.screenrecorder.ScreenRecordService}
+    packageName=com.yx
+    processName=com.yx
+    baseDir=/data/app/com.yx-1/base.apk
+    dataDir=/data/user/0/com.yx
+    app=ProcessRecord{8ecf5f8 4157:com.yx/u0a517}
+    createTime=-1h4m24s673ms startingBgTimeout=-49m14s156ms
+    lastActivity=-49m29s157ms restartTime=-49m29s157ms createdFromFg=false
+    startRequested=true delayedStop=false stopIfKilled=false callStart=true lastStartId=1
+
+  * ServiceRecord{dc03d8e u0 com.zui.safecenter/com.lenovo.safecenter.services.MainService}
+    intent={act=com.lenovo.safecenter.intent.action.START_SERVICE cmp=com.zui.safecenter/com.lenovo.safecenter.services.MainService}
+    packageName=com.zui.safecenter
+    processName=com.zui.safecenter
+    baseDir=/system/priv-app/XuiSecurity/XuiSecurity.apk
+    dataDir=/data/user/0/com.zui.safecenter
+    app=ProcessRecord{647655c 2968:com.zui.safecenter/1000}
+    createTime=-1h4m37s432ms startingBgTimeout=--
+    lastActivity=-23s997ms restartTime=-49m41s917ms createdFromFg=true
+    startRequested=true delayedStop=false stopIfKilled=false callStart=true lastStartId=10
+
+  * ServiceRecord{c9e013d u0 com.android.server.telecom/.components.BluetoothPhoneService}
+    intent={cmp=com.android.server.telecom/.components.BluetoothPhoneService}
+    packageName=com.android.server.telecom
+    processName=system
+    baseDir=/system/priv-app/XuiTelecom/XuiTelecom.apk
+    dataDir=/data/user_de/0/com.android.server.telecom
+    app=ProcessRecord{57fe2 1561:system/1000}
+    createTime=-1h4m46s400ms startingBgTimeout=--
+    lastActivity=-49m50s885ms restartTime=-49m50s885ms createdFromFg=true
+    startRequested=true delayedStop=false stopIfKilled=false callStart=true lastStartId=1
+
+  * ServiceRecord{948b3c0 u0 com.moji.mjweather/.DaemonService}
+    intent={cmp=com.moji.mjweather/.DaemonService}
+    packageName=com.moji.mjweather
+    processName=com.moji.mjweather:mjskin
+    baseDir=/data/app/com.moji.mjweather-2/base.apk
+    dataDir=/data/user/0/com.moji.mjweather
+    app=ProcessRecord{24b6bb5 2529:com.moji.mjweather:mjskin/u0a405}
+    createTime=-1h4m42s798ms startingBgTimeout=-49m32s265ms
+    lastActivity=-10s94ms restartTime=-49m47s251ms createdFromFg=false
+    startRequested=true delayedStop=false stopIfKilled=false callStart=true lastStartId=8
+
+  * ServiceRecord{8806bbd u0 com.tencent.reading/.push.PushMainService}
+    intent={cmp=com.tencent.reading/.push.PushMainService}
+    packageName=com.tencent.reading
+    processName=com.tencent.reading:PushService
+    baseDir=/data/app/com.tencent.reading-1/base.apk
+    dataDir=/data/user/0/com.tencent.reading
+    app=ProcessRecord{36b561a 2376:com.tencent.reading:PushService/u0a216}
+    createTime=-1h4m41s942ms startingBgTimeout=--
+    lastActivity=-49m46s427ms restartTime=-49m46s427ms createdFromFg=true
+    startRequested=true delayedStop=false stopIfKilled=false callStart=true lastStartId=1
+
+  * ServiceRecord{3fdca75 u0 com.android.stk/.StkAppService}
+    intent={cmp=com.android.stk/.StkAppService}
+    packageName=com.android.stk
+    processName=com.android.phone
+    baseDir=/system/app/Stk/Stk.apk
+    dataDir=/data/user/0/com.android.stk
+    app=ProcessRecord{933421c 1998:com.android.phone/1001}
+    createTime=-1h4m32s309ms startingBgTimeout=--
+    lastActivity=-49m36s794ms restartTime=-49m36s794ms createdFromFg=true
+    startRequested=true delayedStop=false stopIfKilled=false callStart=true lastStartId=1
+
+  * ServiceRecord{db76387 u0 com.android.server.telecom/.components.TelecomService}
+    intent={act=com.android.ITelecomService cmp=com.android.server.telecom/.components.TelecomService}
+    packageName=com.android.server.telecom
+    processName=system
+    baseDir=/system/priv-app/XuiTelecom/XuiTelecom.apk
+    dataDir=/data/user_de/0/com.android.server.telecom
+    app=ProcessRecord{57fe2 1561:system/1000}
+    createTime=-1h4m48s589ms startingBgTimeout=--
+    lastActivity=-49m53s75ms restartTime=-49m53s75ms createdFromFg=true
+    Bindings:
+    * IntentBindRecord{b0bc54b CREATE}:
+      intent={act=com.android.ITelecomService cmp=com.android.server.telecom/.components.TelecomService}
+      binder=com.android.server.telecom.TelecomServiceImpl$1@d220b28
+      requested=true received=true hasBound=true doRebind=false
+      * Client AppBindRecord{fd52041 ProcessRecord{57fe2 1561:system/1000}}
+        Per-process Connections:
+          ConnectionRecord{cbdd7c6 u0 CR IMP FGS com.android.server.telecom/.components.TelecomService:@a8689a1}
+    All Connections:
+      ConnectionRecord{cbdd7c6 u0 CR IMP FGS com.android.server.telecom/.components.TelecomService:@a8689a1}
+
+  * ServiceRecord{9ebb618 u0 com.yx/.pushed.TcpService}
+    intent={cmp=com.yx/.pushed.TcpService}
+    packageName=com.yx
+    processName=com.yx:push
+    baseDir=/data/app/com.yx-1/base.apk
+    dataDir=/data/user/0/com.yx
+    app=ProcessRecord{d8b9e6 2318:com.yx:push/u0a517}
+    isForeground=true foregroundId=42 foregroundNoti=Notification(pri=-2 contentView=com.yx/0x10900b5 vibrate=null sound=null defaults=0x0 flags=0x62 color=0xff607d8b vis=PRIVATE)
+    createTime=-1h4m43s594ms startingBgTimeout=--
+    lastActivity=-10s560ms restartTime=-49m48s80ms createdFromFg=false
+    startRequested=true delayedStop=false stopIfKilled=false callStart=true lastStartId=12
+    Bindings:
+    * IntentBindRecord{2cf6b27 CREATE}:
+      intent={cmp=com.yx/.pushed.TcpService}
+      binder=android.os.BinderProxy@c20b1d4
+      requested=true received=true hasBound=true doRebind=false
+      * Client AppBindRecord{e127f7d ProcessRecord{8ecf5f8 4157:com.yx/u0a517}}
+        Per-process Connections:
+          ConnectionRecord{ff42936 u0 CR com.yx/.pushed.TcpService:@5a67ad1}
+    All Connections:
+      ConnectionRecord{ff42936 u0 CR com.yx/.pushed.TcpService:@5a67ad1}
+
+  * ServiceRecord{dd84d79 u0 com.android.providers.media/.MtpService}
+    intent={cmp=com.android.providers.media/.MtpService}
+    packageName=com.android.providers.media
+    processName=android.process.media
+    baseDir=/system/priv-app/MediaProvider/MediaProvider.apk
+    dataDir=/data/user/0/com.android.providers.media
+    app=ProcessRecord{a3cf852 3151:android.process.media/u0a10}
+    createTime=-30m12s357ms startingBgTimeout=--
+    lastActivity=-24s753ms restartTime=-30m12s357ms createdFromFg=true
+    startRequested=true delayedStop=false stopIfKilled=true callStart=true lastStartId=2
+    Delivered Starts:
+    #0 id=1 dur=-30m12s356ms dxc=1
+      intent=Intent { cmp=com.android.providers.media/.MtpService (has extras) }
+    #1 id=2 dur=-24s753ms dxc=1
+      intent=Intent { cmp=com.android.providers.media/.MtpService (has extras) }
+    Bindings:
+    * IntentBindRecord{c64e0a7 CREATE}:
+      intent={cmp=com.android.providers.media/.MtpService}
+      binder=android.os.BinderProxy@b90b954
+      requested=true received=true hasBound=true doRebind=false
+      * Client AppBindRecord{eb0fd ProcessRecord{a3cf852 3151:android.process.media/u0a10}}
+        Per-process Connections:
+          ConnectionRecord{8c0a71f u0 CR com.android.providers.media/.MtpService:@14a0abe}
+    All Connections:
+      ConnectionRecord{8c0a71f u0 CR com.android.providers.media/.MtpService:@14a0abe}
+
+  * ServiceRecord{5cc9679 u0 com.android.bluetooth/.hfp.HeadsetService}
+    intent={act=android.bluetooth.IBluetoothHeadset cmp=com.android.bluetooth/.hfp.HeadsetService}
+    packageName=com.android.bluetooth
+    processName=com.android.bluetooth
+    baseDir=/system/app/Bluetooth/Bluetooth.apk
+    dataDir=/data/user_de/0/com.android.bluetooth
+    app=null
+    createTime=-1h4m48s475ms startingBgTimeout=--
+    lastActivity=-49m52s961ms restartTime=-- createdFromFg=true
+    Bindings:
+    * IntentBindRecord{88b1fbe}:
+      intent={act=android.bluetooth.IBluetoothHeadset cmp=com.android.bluetooth/.hfp.HeadsetService}
+      binder=null
+      requested=false received=false hasBound=false doRebind=false
+      * Client AppBindRecord{1dc981f ProcessRecord{57fe2 1561:system/1000}}
+        Per-process Connections:
+          ConnectionRecord{bc90d u0 com.android.bluetooth/.hfp.HeadsetService:@311e7a4}
+          ConnectionRecord{1e5ddbd u0 com.android.bluetooth/.hfp.HeadsetService:@249a114}
+          ConnectionRecord{f037750 u0 com.android.bluetooth/.hfp.HeadsetService:@2c2913}
+      * Client AppBindRecord{840676c ProcessRecord{933421c 1998:com.android.phone/1001}}
+        Per-process Connections:
+          ConnectionRecord{92bf52a u0 com.android.bluetooth/.hfp.HeadsetService:@c36ee15}
+    All Connections:
+      ConnectionRecord{f037750 u0 com.android.bluetooth/.hfp.HeadsetService:@2c2913}
+      ConnectionRecord{1e5ddbd u0 com.android.bluetooth/.hfp.HeadsetService:@249a114}
+      ConnectionRecord{bc90d u0 com.android.bluetooth/.hfp.HeadsetService:@311e7a4}
+      ConnectionRecord{92bf52a u0 com.android.bluetooth/.hfp.HeadsetService:@c36ee15}
+
+  * ServiceRecord{1f791ac u0 com.zf.daemon/.LocalService}
+    intent={cmp=com.zf.daemon/.LocalService}
+    packageName=com.zf.daemon
+    processName=com.zf.daemon
+    baseDir=/data/app/com.zf.daemon-1/base.apk
+    dataDir=/data/user/0/com.zf.daemon
+    app=ProcessRecord{bd39e75 6418:com.zf.daemon/u0a515}
+    createTime=-30m19s576ms startingBgTimeout=--
+    lastActivity=-30m19s576ms restartTime=-30m19s576ms createdFromFg=true
+    startRequested=true delayedStop=false stopIfKilled=false callStart=true lastStartId=1
+    Bindings:
+    * IntentBindRecord{dca1f2}:
+      intent={cmp=com.zf.daemon/.LocalService}
+      binder=android.os.BinderProxy@a74e043
+      requested=true received=true hasBound=true doRebind=false
+      * Client AppBindRecord{6ea16c0 ProcessRecord{7ccacf1 6465:com.zf.daemon:remote/u0a515}}
+        Per-process Connections:
+          ConnectionRecord{959ff57 u0 IMP com.zf.daemon/.LocalService:@23d40d6}
+    All Connections:
+      ConnectionRecord{959ff57 u0 IMP com.zf.daemon/.LocalService:@23d40d6}
+
+  * ServiceRecord{d0843da u0 com.qti.qualcomm.datastatusnotification/.DataStatusNotificationService}
+    intent={cmp=com.qti.qualcomm.datastatusnotification/.DataStatusNotificationService}
+    packageName=com.qti.qualcomm.datastatusnotification
+    processName=com.android.phone
+    baseDir=/system/app/datastatusnotification/datastatusnotification.apk
+    dataDir=/data/user/0/com.qti.qualcomm.datastatusnotification
+    app=ProcessRecord{933421c 1998:com.android.phone/1001}
+    createTime=-1h4m31s835ms startingBgTimeout=--
+    lastActivity=-49m36s321ms restartTime=-49m36s321ms createdFromFg=true
+    startRequested=true delayedStop=false stopIfKilled=false callStart=true lastStartId=1
+
+  * ServiceRecord{ab09aa u0 com.zui.xuisys/.XuiSysService}
+    intent={cmp=com.zui.xuisys/.XuiSysService}
+    packageName=com.zui.xuisys
+    processName=com.zui.xuisys
+    baseDir=/system/priv-app/XuiSys/XuiSys.apk
+    dataDir=/data/user/0/com.zui.xuisys
+    app=ProcessRecord{e5daae6 3001:com.zui.xuisys/1000}
+    createTime=-1h4m28s657ms startingBgTimeout=--
+    lastActivity=-49m33s143ms restartTime=-49m33s143ms createdFromFg=true
+    startRequested=true delayedStop=false stopIfKilled=false callStart=true lastStartId=1
+
+  * ServiceRecord{a1c58f0 u0 com.zui.sdac/.cns.CNSClientService}
+    intent={act=com.zui.sdac.cns.CNSClientService.ACTION_START pkg=com.zui.sdac}
+    packageName=com.zui.sdac
+    processName=com.zui.sdac:cns
+    baseDir=/system/priv-app/XuiSdac/XuiSdac.apk
+    dataDir=/data/user/0/com.zui.sdac
+    app=ProcessRecord{a828e58 3958:com.zui.sdac:cns/u0a33}
+    createTime=-1h4m29s148ms startingBgTimeout=-49m18s633ms
+    lastActivity=-2m28s495ms restartTime=-49m33s634ms createdFromFg=false
+    startRequested=true delayedStop=false stopIfKilled=false callStart=true lastStartId=3
+
+  * ServiceRecord{8bda8d7 u0 com.android.systemui/.statusbar.redpacket.SceneNotificationService}
+    intent={cmp=com.android.systemui/.statusbar.redpacket.SceneNotificationService}
+    packageName=com.android.systemui
+    processName=com.android.systemui:sceneservice
+    permission=android.required.permission.BIND_SYSTEMUI_SERVICE
+    baseDir=/system/priv-app/XuiSystemUI/XuiSystemUI.apk
+    dataDir=/data/user_de/0/com.android.systemui
+    app=ProcessRecord{736ac0a 2047:com.android.systemui:sceneservice/u0a37}
+    createTime=-1h4m47s215ms startingBgTimeout=--
+    lastActivity=-49m44s184ms restartTime=-49m51s671ms createdFromFg=true
+    startRequested=true delayedStop=false stopIfKilled=false callStart=true lastStartId=1
+    Bindings:
+    * IntentBindRecord{1059bb1 CREATE}:
+      intent={cmp=com.android.systemui/.statusbar.redpacket.SceneNotificationService}
+      binder=android.os.BinderProxy@b96896
+      requested=true received=true hasBound=true doRebind=false
+      * Client AppBindRecord{6d36c17 ProcessRecord{4e29018 1864:com.android.systemui/u0a37}}
+        Per-process Connections:
+          ConnectionRecord{ea7a056 u0 CR com.android.systemui/.statusbar.redpacket.SceneNotificationService:@6eeda71}
+    All Connections:
+      ConnectionRecord{ea7a056 u0 CR com.android.systemui/.statusbar.redpacket.SceneNotificationService:@6eeda71}
+
+  * ServiceRecord{a0e0218 u0 com.qualcomm.qti.modemtestmode/.MbnTestService}
+    intent={cmp=com.qualcomm.qti.modemtestmode/.MbnTestService}
+    packageName=com.qualcomm.qti.modemtestmode
+    processName=com.android.phone
+    baseDir=/system/app/ModemTestMode/ModemTestMode.apk
+    dataDir=/data/user/0/com.qualcomm.qti.modemtestmode
+    app=ProcessRecord{933421c 1998:com.android.phone/1001}
+    createTime=-1h4m31s595ms startingBgTimeout=--
+    lastActivity=-49m36s81ms restartTime=-49m36s81ms createdFromFg=false
+    Bindings:
+    * IntentBindRecord{3be3804 CREATE}:
+      intent={cmp=com.qualcomm.qti.modemtestmode/.MbnTestService}
+      binder=android.os.BinderProxy@42741ed
+      requested=true received=true hasBound=true doRebind=false
+      * Client AppBindRecord{51b7822 ProcessRecord{da3e583 3832:com.qualcomm.qti.modemtestmode/1000}}
+        Per-process Connections:
+          ConnectionRecord{34281fb u0 CR com.qualcomm.qti.modemtestmode/.MbnTestService:@b69578a}
+    All Connections:
+      ConnectionRecord{34281fb u0 CR com.qualcomm.qti.modemtestmode/.MbnTestService:@b69578a}
+
+  * ServiceRecord{48de2e7 u0 com.oupeng.max.sdk/com.opera.max.sdk.traffic_package.PackageQueryService}
+    intent={cmp=com.oupeng.max.sdk/com.opera.max.sdk.traffic_package.PackageQueryService}
+    packageName=com.oupeng.max.sdk
+    processName=com.oupeng.max.sdk
+    permission=com.opera.max.permission.dataSaving
+    baseDir=/system/priv-app/Liuliangbao/Liuliangbao.apk
+    dataDir=/data/user/0/com.oupeng.max.sdk
+    app=ProcessRecord{798b2b3 3193:com.oupeng.max.sdk/u0a25}
+    createTime=-1h4m34s527ms startingBgTimeout=--
+    lastActivity=-49m39s13ms restartTime=-49m39s13ms createdFromFg=true
+    Bindings:
+    * IntentBindRecord{be8d070 CREATE}:
+      intent={cmp=com.oupeng.max.sdk/com.opera.max.sdk.traffic_package.PackageQueryService}
+      binder=android.os.BinderProxy@8430fe9
+      requested=true received=true hasBound=true doRebind=false
+      * Client AppBindRecord{a9cf46e ProcessRecord{140022f 3062:com.zui.net.data.monitor/1000}}
+        Per-process Connections:
+          ConnectionRecord{2ab38a6 u0 CR com.oupeng.max.sdk/com.opera.max.sdk.traffic_package.PackageQueryService:@afb6201}
+    All Connections:
+      ConnectionRecord{2ab38a6 u0 CR com.oupeng.max.sdk/com.opera.max.sdk.traffic_package.PackageQueryService:@afb6201}
+
+  * ServiceRecord{7737c5f u0 com.moji.mjweather/com.eguan.monitor.service.MonitorService}
+    intent={cmp=com.moji.mjweather/com.eguan.monitor.service.MonitorService}
+    packageName=com.moji.mjweather
+    processName=com.moji.mjweather:monitorService
+    baseDir=/data/app/com.moji.mjweather-2/base.apk
+    dataDir=/data/user/0/com.moji.mjweather
+    app=ProcessRecord{bfd7f7b 5007:com.moji.mjweather:monitorService/u0a405}
+    createTime=-43m19s476ms startingBgTimeout=--
+    lastActivity=-43m19s439ms restartTime=-43m19s439ms createdFromFg=true
+    startRequested=true delayedStop=false stopIfKilled=false callStart=true lastStartId=1
+
+  * ServiceRecord{5bd4917 u0 com.amap.android.location/.GeocodeService}
+    intent={act=com.android.location.service.GeocodeProvider cmp=com.amap.android.location/.GeocodeService}
+    packageName=com.amap.android.location
+    processName=com.amap.android.location
+    permission=android.permission.WRITE_SECURE_SETTINGS
+    baseDir=/system/priv-app/NetworkLocation/NetworkLocation.apk
+    dataDir=/data/user/0/com.amap.android.location
+    app=ProcessRecord{a206821 3209:com.amap.android.location/u0a22}
+    createTime=-1h4m38s508ms startingBgTimeout=--
+    lastActivity=-49m42s993ms restartTime=-49m42s993ms createdFromFg=true
+    Bindings:
+    * IntentBindRecord{261c70f CREATE}:
+      intent={act=com.android.location.service.GeocodeProvider cmp=com.amap.android.location/.GeocodeService}
+      binder=android.os.BinderProxy@2e2839c
+      requested=true received=true hasBound=true doRebind=false
+      * Client AppBindRecord{533c1a5 ProcessRecord{57fe2 1561:system/1000}}
+        Per-process Connections:
+          ConnectionRecord{5dc9996 u0 CR !FG !VIS com.amap.android.location/.GeocodeService:@ee2f0b1}
+    All Connections:
+      ConnectionRecord{5dc9996 u0 CR !FG !VIS com.amap.android.location/.GeocodeService:@ee2f0b1}
+
+  * ServiceRecord{8d4caed u0 android/com.android.server.content.SyncJobService}
+    intent={cmp=android/com.android.server.content.SyncJobService}
+    packageName=android
+    processName=system
+    permission=android.permission.BIND_JOB_SERVICE
+    baseDir=/system/framework/framework-res.apk
+    dataDir=null
+    app=ProcessRecord{57fe2 1561:system/1000}
+    createTime=-1h4m47s287ms startingBgTimeout=--
+    lastActivity=-49m51s772ms restartTime=-49m51s772ms createdFromFg=true
+    startRequested=true delayedStop=false stopIfKilled=true callStart=true lastStartId=1
+
+  * ServiceRecord{4830334 u0 com.amap.android.location/.internal.server.NetworkLocationService}
+    intent={act=com.amap.android.location.internal.ANDROID_NLP pkg=com.amap.android.location}
+    packageName=com.amap.android.location
+    processName=com.amap.android.location
+    baseDir=/system/priv-app/NetworkLocation/NetworkLocation.apk
+    dataDir=/data/user/0/com.amap.android.location
+    app=ProcessRecord{a206821 3209:com.amap.android.location/u0a22}
+    createTime=-1h4m38s400ms startingBgTimeout=--
+    lastActivity=-49m42s885ms restartTime=-49m42s885ms createdFromFg=true
+    Bindings:
+    * IntentBindRecord{6a7e97a CREATE}:
+      intent={act=com.amap.android.location.internal.ANDROID_NLP pkg=com.amap.android.location}
+      binder=android.os.BinderProxy@cfdc52b
+      requested=true received=true hasBound=true doRebind=false
+      * Client AppBindRecord{4623d88 ProcessRecord{a206821 3209:com.amap.android.location/u0a22}}
+        Per-process Connections:
+          ConnectionRecord{aca607 u0 CR com.amap.android.location/.internal.server.NetworkLocationService:@a0c9446}
+    All Connections:
+      ConnectionRecord{aca607 u0 CR com.amap.android.location/.internal.server.NetworkLocationService:@a0c9446}
+
+  * ServiceRecord{7c35fb3 u0 com.zui.xlog/.DeamonService}
+    intent={act=com.zui.xlog.StartService pkg=com.zui.xlog}
+    packageName=com.zui.xlog
+    processName=com.zui.xlog
+    permission=com.zui.xlog.service
+    baseDir=/system/priv-app/Xlog/Xlog.apk
+    dataDir=/data/user/0/com.zui.xlog
+    app=ProcessRecord{f5de0 3221:com.zui.xlog/u0a30}
+    createTime=-1h4m38s552ms startingBgTimeout=--
+    lastActivity=-43m39s471ms restartTime=-49m42s985ms createdFromFg=true
+    Bindings:
+    * IntentBindRecord{bc3d321 CREATE}:
+      intent={act=com.zui.xlog.StartService pkg=com.zui.xlog}
+      binder=android.os.BinderProxy@93b2346
+      requested=true received=true hasBound=true doRebind=false
+      * Client AppBindRecord{1118907 ProcessRecord{140022f 3062:com.zui.net.data.monitor/1000}}
+        Per-process Connections:
+          ConnectionRecord{82a17cf u0 CR com.zui.xlog/.DeamonService:@f85102e}
+      * Client AppBindRecord{ea1aa34 ProcessRecord{2f2786d 3404:com.zui.sdac/u0a33}}
+        Per-process Connections:
+          ConnectionRecord{4bb0d33 u0 CR com.zui.xlog/.DeamonService:@33caca2}
+      * Client AppBindRecord{4e9805d ProcessRecord{319837b 3358:com.zui.auservice/1000}}
+        Per-process Connections:
+          ConnectionRecord{c4101f1 u0 CR com.zui.xlog/.DeamonService:@40ea598}
+      * Client AppBindRecord{1762dd2 ProcessRecord{4a5592c 3126:com.zui.homesettings/1000}}
+        Per-process Connections:
+          ConnectionRecord{92a218a u0 CR com.zui.xlog/.DeamonService:@f9a8ff5}
+      * Client AppBindRecord{7c935a0 ProcessRecord{5397773 3169:com.zui.launcher/u0a35}}
+        Per-process Connections:
+          ConnectionRecord{70f42a9 u0 CR com.zui.xlog/.DeamonService:@1cf1630}
+          ConnectionRecord{c0c4be1 u0 CR com.zui.xlog/.DeamonService:@a922148}
+      * Client AppBindRecord{8c2c559 ProcessRecord{647655c 2968:com.zui.safecenter/1000}}
+        Per-process Connections:
+          ConnectionRecord{656013a u0 CR com.zui.xlog/.DeamonService:@e706065}
+      * Client AppBindRecord{ee5551e ProcessRecord{7adf4e1 3604:com.zui.ota/u0a38}}
+        Per-process Connections:
+          ConnectionRecord{7e6e0c7 u0 CR com.zui.xlog/.DeamonService:@cb40206}
+      * Client AppBindRecord{e1c0bcc ProcessRecord{bc15039 3563:com.zui.bugtogo/u0a39}}
+        Per-process Connections:
+          ConnectionRecord{67a47df u0 CR com.zui.xlog/.DeamonService:@cd6b67e}
+      * Client AppBindRecord{9515e15 ProcessRecord{e5daae6 3001:com.zui.xuisys/1000}}
+        Per-process Connections:
+          ConnectionRecord{2a18ad4 u0 CR com.zui.xlog/.DeamonService:@bd80827}
+    All Connections:
+      ConnectionRecord{70f42a9 u0 CR com.zui.xlog/.DeamonService:@1cf1630}
+      ConnectionRecord{4bb0d33 u0 CR com.zui.xlog/.DeamonService:@33caca2}
+      ConnectionRecord{c4101f1 u0 CR com.zui.xlog/.DeamonService:@40ea598}
+      ConnectionRecord{c0c4be1 u0 CR com.zui.xlog/.DeamonService:@a922148}
+      ConnectionRecord{2a18ad4 u0 CR com.zui.xlog/.DeamonService:@bd80827}
+      ConnectionRecord{7e6e0c7 u0 CR com.zui.xlog/.DeamonService:@cb40206}
+      ConnectionRecord{67a47df u0 CR com.zui.xlog/.DeamonService:@cd6b67e}
+      ConnectionRecord{656013a u0 CR com.zui.xlog/.DeamonService:@e706065}
+      ConnectionRecord{82a17cf u0 CR com.zui.xlog/.DeamonService:@f85102e}
+      ConnectionRecord{92a218a u0 CR com.zui.xlog/.DeamonService:@f9a8ff5}
+
+  * ServiceRecord{b8da52a u0 com.android.bluetooth/.map.BluetoothMapService}
+    intent={act=android.bluetooth.IBluetoothMap cmp=com.android.bluetooth/.map.BluetoothMapService}
+    packageName=com.android.bluetooth
+    processName=com.android.bluetooth
+    baseDir=/system/app/Bluetooth/Bluetooth.apk
+    dataDir=/data/user_de/0/com.android.bluetooth
+    app=null
+    createTime=-1h4m45s893ms startingBgTimeout=--
+    lastActivity=-49m50s379ms restartTime=-- createdFromFg=true
+    Bindings:
+    * IntentBindRecord{c1e4f1b}:
+      intent={act=android.bluetooth.IBluetoothMap cmp=com.android.bluetooth/.map.BluetoothMapService}
+      binder=null
+      requested=false received=false hasBound=false doRebind=false
+      * Client AppBindRecord{ee418b8 ProcessRecord{4e29018 1864:com.android.systemui/u0a37}}
+        Per-process Connections:
+          ConnectionRecord{fdabcaf u0 com.android.bluetooth/.map.BluetoothMapService:@56fbc8e}
+    All Connections:
+      ConnectionRecord{fdabcaf u0 com.android.bluetooth/.map.BluetoothMapService:@56fbc8e}
+
+  * ServiceRecord{7ae6321 u0 com.android.phone/.TelephonyDebugService}
+    intent={cmp=com.android.phone/.TelephonyDebugService}
+    packageName=com.android.phone
+    processName=com.android.phone
+    permission=android.permission.DUMP
+    baseDir=/system/priv-app/TeleService/TeleService.apk
+    dataDir=/data/user_de/0/com.android.phone
+    app=ProcessRecord{933421c 1998:com.android.phone/1001}
+    createTime=-1h4m46s569ms startingBgTimeout=--
+    lastActivity=-49m51s55ms restartTime=-49m51s55ms createdFromFg=true
+    startRequested=true delayedStop=false stopIfKilled=false callStart=true lastStartId=1
+
+  * ServiceRecord{bd0520e u0 android.ext.services/.notification.Ranker}
+    intent={act=android.service.notification.NotificationRankerService cmp=android.ext.services/.notification.Ranker}
+    packageName=android.ext.services
+    processName=android.ext.services
+    permission=android.permission.BIND_NOTIFICATION_RANKER_SERVICE
+    baseDir=/system/priv-app/ExtServices/ExtServices.apk
+    dataDir=/data/user_de/0/android.ext.services
+    app=ProcessRecord{cf6c691 2272:android.ext.services/u0a44}
+    whitelistManager=true
+    createTime=-1h4m50s574ms startingBgTimeout=--
+    lastActivity=-49m48s737ms restartTime=-49m48s737ms createdFromFg=true
+    Bindings:
+    * IntentBindRecord{ab8e9f6 CREATE}:
+      intent={act=android.service.notification.NotificationRankerService cmp=android.ext.services/.notification.Ranker}
+      binder=android.os.BinderProxy@248c1f7
+      requested=true received=true hasBound=true doRebind=false
+      * Client AppBindRecord{1e0864 ProcessRecord{57fe2 1561:system/1000}}
+        Per-process Connections:
+          ConnectionRecord{60f7e30 u0 CR FGS android.ext.services/.notification.Ranker:@a1a7f73}
+    All Connections:
+      ConnectionRecord{60f7e30 u0 CR FGS android.ext.services/.notification.Ranker:@a1a7f73}
+
+  * ServiceRecord{196cab4 u0 com.zui.ue/.ReaperService}
+    intent={cmp=com.zui.ue/.ReaperService}
+    packageName=com.zui.ue
+    processName=com.zui.ue
+    baseDir=/system/priv-app/LSF-UEService-Phone/LSF-UEService-Phone.apk
+    dataDir=/data/user/0/com.zui.ue
+    app=ProcessRecord{4b03acd 3015:com.zui.ue/u0a16}
+    createTime=-1h4m28s765ms startingBgTimeout=--
+    lastActivity=-10s118ms restartTime=-49m33s251ms createdFromFg=true
+    startRequested=true delayedStop=false stopIfKilled=false callStart=true lastStartId=4
+
+  * ServiceRecord{25064bc u0 com.moji.mjweather/cn.com.iresearch.phonemonitor.library.MonitorService}
+    intent={cmp=com.moji.mjweather/cn.com.iresearch.phonemonitor.library.MonitorService}
+    packageName=com.moji.mjweather
+    processName=com.moji.mjweather:phone_monitor
+    baseDir=/data/app/com.moji.mjweather-2/base.apk
+    dataDir=/data/user/0/com.moji.mjweather
+    app=ProcessRecord{a6f7e26 3678:com.moji.mjweather:phone_monitor/u0a405}
+    isForeground=true foregroundId=-1001 foregroundNoti=Notification(pri=-2 contentView=null vibrate=null sound=null defaults=0x0 flags=0x62 color=0xff607d8b vis=PRIVATE)
+    createTime=-1h4m33s686ms startingBgTimeout=-49m23s156ms
+    lastActivity=-30m21s86ms restartTime=-49m38s116ms createdFromFg=false
+    startRequested=true delayedStop=false stopIfKilled=false callStart=true lastStartId=7
+
+  * ServiceRecord{881af82 u0 com.android.bluetooth/.pan.PanService}
+    intent={act=android.bluetooth.IBluetoothPan cmp=com.android.bluetooth/.pan.PanService}
+    packageName=com.android.bluetooth
+    processName=com.android.bluetooth
+    baseDir=/system/app/Bluetooth/Bluetooth.apk
+    dataDir=/data/user_de/0/com.android.bluetooth
+    app=null
+    createTime=-1h4m45s898ms startingBgTimeout=--
+    lastActivity=-49m50s384ms restartTime=-- createdFromFg=true
+    Bindings:
+    * IntentBindRecord{33d8693}:
+      intent={act=android.bluetooth.IBluetoothPan cmp=com.android.bluetooth/.pan.PanService}
+      binder=null
+      requested=false received=false hasBound=false doRebind=false
+      * Client AppBindRecord{8e546d0 ProcessRecord{4e29018 1864:com.android.systemui/u0a37}}
+        Per-process Connections:
+          ConnectionRecord{48f1390 u0 com.android.bluetooth/.pan.PanService:@2ef8e53}
+    All Connections:
+      ConnectionRecord{48f1390 u0 com.android.bluetooth/.pan.PanService:@2ef8e53}
+
+  * ServiceRecord{9ec29 u0 com.redteamobile.virtual.softsim/.client.SoftSimClientService}
+    intent={cmp=com.redteamobile.virtual.softsim/.client.SoftSimClientService}
+    packageName=com.redteamobile.virtual.softsim
+    processName=com.redteamobile.virtual.softsim
+    baseDir=/system/app/XuiZService/XuiZService.apk
+    dataDir=/data/user/0/com.redteamobile.virtual.softsim
+    app=ProcessRecord{a8eba57 4058:com.redteamobile.virtual.softsim/u0a71}
+    createTime=-1h4m27s925ms startingBgTimeout=-49m17s410ms
+    lastActivity=-49m32s409ms restartTime=-49m32s411ms createdFromFg=false
+    startRequested=true delayedStop=false stopIfKilled=false callStart=true lastStartId=1
+    Bindings:
+    * IntentBindRecord{a12b6c9 CREATE}:
+      intent={cmp=com.redteamobile.virtual.softsim/.client.SoftSimClientService}
+      binder=android.os.BinderProxy@61f41ce
+      requested=true received=true hasBound=true doRebind=false
+      * Client AppBindRecord{4aff8ef ProcessRecord{a8eba57 4058:com.redteamobile.virtual.softsim/u0a71}}
+        Per-process Connections:
+          ConnectionRecord{3f09d4f u0 CR com.redteamobile.virtual.softsim/.client.SoftSimClientService:@ae43bae}
+    All Connections:
+      ConnectionRecord{3f09d4f u0 CR com.redteamobile.virtual.softsim/.client.SoftSimClientService:@ae43bae}
+
+  * ServiceRecord{ff68040 u0 com.oupeng.max.sdk/com.opera.max.sdk.traffic.TrafficService}
+    intent={act=com.opera.max.sdk.traffic.TrafficService cmp=com.oupeng.max.sdk/com.opera.max.sdk.traffic.TrafficService}
+    packageName=com.oupeng.max.sdk
+    processName=com.oupeng.max.sdk
+    permission=com.opera.max.permission.dataSaving
+    baseDir=/system/priv-app/Liuliangbao/Liuliangbao.apk
+    dataDir=/data/user/0/com.oupeng.max.sdk
+    app=ProcessRecord{798b2b3 3193:com.oupeng.max.sdk/u0a25}
+    createTime=-1h4m38s527ms startingBgTimeout=--
+    lastActivity=-49m43s10ms restartTime=-49m43s10ms createdFromFg=true
+    Bindings:
+    * IntentBindRecord{49ffffc CREATE}:
+      intent={act=com.opera.max.sdk.traffic.TrafficService cmp=com.oupeng.max.sdk/com.opera.max.sdk.traffic.TrafficService}
+      binder=android.os.BinderProxy@106f685
+      requested=true received=true hasBound=true doRebind=false
+      * Client AppBindRecord{ef1acda ProcessRecord{140022f 3062:com.zui.net.data.monitor/1000}}
+        Per-process Connections:
+          ConnectionRecord{7c98f72 u0 CR com.oupeng.max.sdk/com.opera.max.sdk.traffic.TrafficService:@b0ce47d}
+    All Connections:
+      ConnectionRecord{7c98f72 u0 CR com.oupeng.max.sdk/com.opera.max.sdk.traffic.TrafficService:@b0ce47d}
+
+  Connection bindings to services:
+  * ConnectionRecord{f037750 u0 com.android.bluetooth/.hfp.HeadsetService:@2c2913}
+    binding=AppBindRecord{1dc981f com.android.bluetooth/.hfp.HeadsetService:system}
+    conn=android.app.LoadedApk$ServiceDispatcher$InnerConnection@2c2913 flags=0x0
+  * ConnectionRecord{395a66 u0 CR com.moji.mjweather/com.moji.api.service.APIBGService:@c9f2c1}
+    binding=AppBindRecord{5a0b34f com.moji.mjweather/com.moji.api.service.APIBGService:com.moji.mjweather}
+    conn=android.os.BinderProxy@c9f2c1 flags=0x1
+  * ConnectionRecord{8c0a71f u0 CR com.android.providers.media/.MtpService:@14a0abe}
+    binding=AppBindRecord{eb0fd com.android.providers.media/.MtpService:android.process.media}
+    conn=android.os.BinderProxy@14a0abe flags=0x1
+  * ConnectionRecord{d85b014 u0 CR com.moji.mjweather/com.moji.api.service.APIBGService:@14c7a67}
+    binding=AppBindRecord{a289adc com.moji.mjweather/com.moji.api.service.APIBGService:com.moji.mjweather:phone_monitor}
+    conn=android.os.BinderProxy@14c7a67 flags=0x1
+  * ConnectionRecord{70f42a9 u0 CR com.zui.xlog/.DeamonService:@1cf1630}
+    binding=AppBindRecord{7c935a0 com.zui.xlog/.DeamonService:com.zui.launcher}
+    conn=android.os.BinderProxy@1cf1630 flags=0x1
+  * ConnectionRecord{959ff57 u0 IMP com.zf.daemon/.LocalService:@23d40d6}
+    binding=AppBindRecord{6ea16c0 com.zf.daemon/.LocalService:com.zf.daemon:remote}
+    conn=android.os.BinderProxy@23d40d6 flags=0x40
+  * ConnectionRecord{1e5ddbd u0 com.android.bluetooth/.hfp.HeadsetService:@249a114}
+    binding=AppBindRecord{1dc981f com.android.bluetooth/.hfp.HeadsetService:system}
+    conn=android.app.LoadedApk$ServiceDispatcher$InnerConnection@249a114 flags=0x0
+  * ConnectionRecord{48f1390 u0 com.android.bluetooth/.pan.PanService:@2ef8e53}
+    binding=AppBindRecord{8e546d0 com.android.bluetooth/.pan.PanService:com.android.systemui}
+    conn=android.os.BinderProxy@2ef8e53 flags=0x0
+  * ConnectionRecord{bc90d u0 com.android.bluetooth/.hfp.HeadsetService:@311e7a4}
+    binding=AppBindRecord{1dc981f com.android.bluetooth/.hfp.HeadsetService:system}
+    conn=android.app.LoadedApk$ServiceDispatcher$InnerConnection@311e7a4 flags=0x0
+  * ConnectionRecord{4bb0d33 u0 CR com.zui.xlog/.DeamonService:@33caca2}
+    binding=AppBindRecord{ea1aa34 com.zui.xlog/.DeamonService:com.zui.sdac}
+    conn=android.os.BinderProxy@33caca2 flags=0x1
+  * ConnectionRecord{22d42d7 u0 CR com.qualcomm.qcrilmsgtunnel/.QcrilMsgTunnelService:@40d6256}
+    binding=AppBindRecord{fdf1a5e com.qualcomm.qcrilmsgtunnel/.QcrilMsgTunnelService:com.android.phone}
+    conn=android.os.BinderProxy@40d6256 flags=0x1
+  * ConnectionRecord{c4101f1 u0 CR com.zui.xlog/.DeamonService:@40ea598}
+    binding=AppBindRecord{4e9805d com.zui.xlog/.DeamonService:com.zui.auservice}
+    conn=android.os.BinderProxy@40ea598 flags=0x1
+  * ConnectionRecord{c5882aa u0 CR com.android.systemui/com.lenovo.artlock.gallery.load.GalleryLoader:@42f4195}
+    binding=AppBindRecord{ec47726 com.android.systemui/com.lenovo.artlock.gallery.load.GalleryLoader:com.android.systemui}
+    conn=android.os.BinderProxy@42f4195 flags=0x1
+  * ConnectionRecord{2ca595a u0 com.android.bluetooth/.a2dp.A2dpService:@45c8505}
+    binding=AppBindRecord{d821f12 com.android.bluetooth/.a2dp.A2dpService:system}
+    conn=android.app.LoadedApk$ServiceDispatcher$InnerConnection@45c8505 flags=0x0
+  * ConnectionRecord{70c0739 u0 CR com.qualcomm.qcrilmsgtunnel/.QcrilMsgTunnelService:@508d300}
+    binding=AppBindRecord{ebb0e3f com.qualcomm.qcrilmsgtunnel/.QcrilMsgTunnelService:com.qualcomm.qti.modemtestmode}
+    conn=android.os.BinderProxy@508d300 flags=0x1
+  * ConnectionRecord{fdabcaf u0 com.android.bluetooth/.map.BluetoothMapService:@56fbc8e}
+    binding=AppBindRecord{ee418b8 com.android.bluetooth/.map.BluetoothMapService:com.android.systemui}
+    conn=android.os.BinderProxy@56fbc8e flags=0x0
+  * ConnectionRecord{ff42936 u0 CR com.yx/.pushed.TcpService:@5a67ad1}
+    binding=AppBindRecord{e127f7d com.yx/.pushed.TcpService:com.yx}
+    conn=android.os.BinderProxy@5a67ad1 flags=0x1
+  * ConnectionRecord{9050ee8 u0 CR com.qualcomm.qcrilmsgtunnel/.QcrilMsgTunnelService:@5cd800b}
+    binding=AppBindRecord{fdf1a5e com.qualcomm.qcrilmsgtunnel/.QcrilMsgTunnelService:com.android.phone}
+    conn=android.os.BinderProxy@5cd800b flags=0x1
+  * ConnectionRecord{dc8a109 u0 CR !FG UI !VIS com.sohu.inputmethod.sogou.zui/.SogouIME:@5f37210}
+    binding=AppBindRecord{aef5d6 com.sohu.inputmethod.sogou.zui/.SogouIME:system}
+    conn=android.app.LoadedApk$ServiceDispatcher$InnerConnection@5f37210 flags=0x60000005
+  * ConnectionRecord{7100775 u0 CR com.android.systemui/.keyguard.KeyguardService:@62ffeac}
+    binding=AppBindRecord{770dfb2 com.android.systemui/.keyguard.KeyguardService:system}
+    conn=android.app.LoadedApk$ServiceDispatcher$InnerConnection@62ffeac flags=0x1
+  * ConnectionRecord{d5f0bfa u0 CR com.qualcomm.qcrilmsgtunnel/.QcrilMsgTunnelService:@69fde25}
+    binding=AppBindRecord{fdf1a5e com.qualcomm.qcrilmsgtunnel/.QcrilMsgTunnelService:com.android.phone}
+    conn=android.os.BinderProxy@69fde25 flags=0x1
+  * ConnectionRecord{b04767b u0 IMP com.zf.daemon/.RemoteService:@6e04e0a}
+    binding=AppBindRecord{52c9566 com.zf.daemon/.RemoteService:com.zf.daemon}
+    conn=android.os.BinderProxy@6e04e0a flags=0x40
+  * ConnectionRecord{ea7a056 u0 CR com.android.systemui/.statusbar.redpacket.SceneNotificationService:@6eeda71}
+    binding=AppBindRecord{6d36c17 com.android.systemui/.statusbar.redpacket.SceneNotificationService:com.android.systemui}
+    conn=android.os.BinderProxy@6eeda71 flags=0x1
+  * ConnectionRecord{61b8c8d u0 com.android.bluetooth/.hid.HidService:@7408924}
+    binding=AppBindRecord{700158b com.android.bluetooth/.hid.HidService:com.android.systemui}
+    conn=android.os.BinderProxy@7408924 flags=0x0
+  * ConnectionRecord{e99e2c6 u0 CR android/.hardware.location.GeofenceHardwareService:@76fe0a1}
+    binding=AppBindRecord{214390d android/.hardware.location.GeofenceHardwareService:system}
+    conn=android.app.LoadedApk$ServiceDispatcher$InnerConnection@76fe0a1 flags=0x1
+  * ConnectionRecord{a2c21e5 u0 CR com.android.vendors.bridge.softsim/.SoftSimService:@77b3cdc}
+    binding=AppBindRecord{642b73c com.android.vendors.bridge.softsim/.SoftSimService:com.redteamobile.virtual.softsim}
+    conn=android.os.BinderProxy@77b3cdc flags=0x1
+  * ConnectionRecord{62025bb u0 CR com.moji.mjweather/com.moji.api.service.APIBGService:@7ec324a}
+    binding=AppBindRecord{31a9229 com.moji.mjweather/com.moji.api.service.APIBGService:com.moji.mjweather:mjskin}
+    conn=android.os.BinderProxy@7ec324a flags=0x1
+  * ConnectionRecord{24ae55f u0 CR com.android.systemui/.keyguard.KeyguardService:@83959fe}
+    binding=AppBindRecord{4e3ab03 com.android.systemui/.keyguard.KeyguardService:com.android.systemui}
+    conn=android.os.BinderProxy@83959fe flags=0x1
+  * ConnectionRecord{19d30be u0 CR !FG !VIS com.qualcomm.location/.izatserviceprovider.service.UnifiedLocationService:@8884b79}
+    binding=AppBindRecord{8bf202d com.qualcomm.location/.izatserviceprovider.service.UnifiedLocationService:system}
+    conn=android.app.LoadedApk$ServiceDispatcher$InnerConnection@8884b79 flags=0x40000005
+  * ConnectionRecord{8175f19 u0 CR DEAD com.zui.otaserver/.OtaServerService:@90d1e60}
+    binding=AppBindRecord{a2d350b com.zui.otaserver/.OtaServerService:com.zui.ota}
+    conn=android.os.BinderProxy@90d1e60 flags=0x1
+  * ConnectionRecord{aca607 u0 CR com.amap.android.location/.internal.server.NetworkLocationService:@a0c9446}
+    binding=AppBindRecord{4623d88 com.amap.android.location/.internal.server.NetworkLocationService:com.amap.android.location}
+    conn=android.os.BinderProxy@a0c9446 flags=0x1
+  * ConnectionRecord{60f7e30 u0 CR FGS android.ext.services/.notification.Ranker:@a1a7f73}
+    binding=AppBindRecord{1e0864 android.ext.services/.notification.Ranker:system}
+    conn=android.app.LoadedApk$ServiceDispatcher$InnerConnection@a1a7f73 flags=0x5000001
+  * ConnectionRecord{cbdd7c6 u0 CR IMP FGS com.android.server.telecom/.components.TelecomService:@a8689a1}
+    binding=AppBindRecord{fd52041 com.android.server.telecom/.components.TelecomService:system}
+    conn=android.app.LoadedApk$ServiceDispatcher$InnerConnection@a8689a1 flags=0x4000041
+  * ConnectionRecord{c0c4be1 u0 CR com.zui.xlog/.DeamonService:@a922148}
+    binding=AppBindRecord{7c935a0 com.zui.xlog/.DeamonService:com.zui.launcher}
+    activity=ActivityRecord{5febcf8 u0 com.zui.launcher/.Launcher t1}
+    conn=android.os.BinderProxy@a922148 flags=0x1
+  * ConnectionRecord{3f09d4f u0 CR com.redteamobile.virtual.softsim/.client.SoftSimClientService:@ae43bae}
+    binding=AppBindRecord{4aff8ef com.redteamobile.virtual.softsim/.client.SoftSimClientService:com.redteamobile.virtual.softsim}
+    conn=android.os.BinderProxy@ae43bae flags=0x1
+  * ConnectionRecord{a3c2481 u0 CR com.redteamobile.virtual.softsim/.SoftSimService:@aed7868}
+    binding=AppBindRecord{47e7e6a com.redteamobile.virtual.softsim/.SoftSimService:com.zui.zroaming}
+    conn=android.os.BinderProxy@aed7868 flags=0x1
+  * ConnectionRecord{47e97f u0 CR com.android.systemui/com.lenovo.artlock.download.LoadService:@af55a9e}
+    binding=AppBindRecord{48f0a10 com.android.systemui/com.lenovo.artlock.download.LoadService:com.android.systemui}
+    conn=android.os.BinderProxy@af55a9e flags=0x1
+  * ConnectionRecord{2ab38a6 u0 CR com.oupeng.max.sdk/com.opera.max.sdk.traffic_package.PackageQueryService:@afb6201}
+    binding=AppBindRecord{a9cf46e com.oupeng.max.sdk/com.opera.max.sdk.traffic_package.PackageQueryService:com.zui.net.data.monitor}
+    conn=android.os.BinderProxy@afb6201 flags=0x1
+  * ConnectionRecord{7c98f72 u0 CR com.oupeng.max.sdk/com.opera.max.sdk.traffic.TrafficService:@b0ce47d}
+    binding=AppBindRecord{ef1acda com.oupeng.max.sdk/com.opera.max.sdk.traffic.TrafficService:com.zui.net.data.monitor}
+    conn=android.os.BinderProxy@b0ce47d flags=0x1
+  * ConnectionRecord{34281fb u0 CR com.qualcomm.qti.modemtestmode/.MbnTestService:@b69578a}
+    binding=AppBindRecord{51b7822 com.qualcomm.qti.modemtestmode/.MbnTestService:com.qualcomm.qti.modemtestmode}
+    conn=android.os.BinderProxy@b69578a flags=0x1
+  * ConnectionRecord{f175428 u0 CR !FG !VIS com.amap.android.location/.NetworkLocationService:@bd4924b}
+    binding=AppBindRecord{30b30a com.amap.android.location/.NetworkLocationService:system}
+    conn=android.app.LoadedApk$ServiceDispatcher$InnerConnection@bd4924b flags=0x40000005
+  * ConnectionRecord{2a18ad4 u0 CR com.zui.xlog/.DeamonService:@bd80827}
+    binding=AppBindRecord{9515e15 com.zui.xlog/.DeamonService:com.zui.xuisys}
+    conn=android.os.BinderProxy@bd80827 flags=0x1
+  * ConnectionRecord{f5b5df1 u0 CR com.moji.mjweather/com.moji.api.service.APIBGService:@be8f198}
+    binding=AppBindRecord{4a127e5 com.moji.mjweather/com.moji.api.service.APIBGService:com.moji.mjweather:monitorService}
+    conn=android.os.BinderProxy@be8f198 flags=0x1
+  * ConnectionRecord{4ede50d u0 CR com.zui.wifisafe/.service.WifiCheckService:@bfaf3a4}
+    binding=AppBindRecord{5fe1736 com.zui.wifisafe/.service.WifiCheckService:com.zui.safecenter}
+    conn=android.os.BinderProxy@bfaf3a4 flags=0x1
+  * ConnectionRecord{92bf52a u0 com.android.bluetooth/.hfp.HeadsetService:@c36ee15}
+    binding=AppBindRecord{840676c com.android.bluetooth/.hfp.HeadsetService:com.android.phone}
+    conn=android.os.BinderProxy@c36ee15 flags=0x0
+  * ConnectionRecord{7e6e0c7 u0 CR com.zui.xlog/.DeamonService:@cb40206}
+    binding=AppBindRecord{ee5551e com.zui.xlog/.DeamonService:com.zui.ota}
+    conn=android.os.BinderProxy@cb40206 flags=0x1
+  * ConnectionRecord{67a47df u0 CR com.zui.xlog/.DeamonService:@cd6b67e}
+    binding=AppBindRecord{e1c0bcc com.zui.xlog/.DeamonService:com.zui.bugtogo}
+    conn=android.os.BinderProxy@cd6b67e flags=0x1
+  * ConnectionRecord{656013a u0 CR com.zui.xlog/.DeamonService:@e706065}
+    binding=AppBindRecord{8c2c559 com.zui.xlog/.DeamonService:com.zui.safecenter}
+    conn=android.os.BinderProxy@e706065 flags=0x1
+  * ConnectionRecord{af139a u0 com.android.bluetooth/.pbap.BluetoothPbapService:@ed2c045}
+    binding=AppBindRecord{11288c8 com.android.bluetooth/.pbap.BluetoothPbapService:com.android.systemui}
+    conn=android.os.BinderProxy@ed2c045 flags=0x0
+  * ConnectionRecord{5dc9996 u0 CR !FG !VIS com.amap.android.location/.GeocodeService:@ee2f0b1}
+    binding=AppBindRecord{533c1a5 com.amap.android.location/.GeocodeService:system}
+    conn=android.app.LoadedApk$ServiceDispatcher$InnerConnection@ee2f0b1 flags=0x40000005
+  * ConnectionRecord{82a17cf u0 CR com.zui.xlog/.DeamonService:@f85102e}
+    binding=AppBindRecord{1118907 com.zui.xlog/.DeamonService:com.zui.net.data.monitor}
+    conn=android.os.BinderProxy@f85102e flags=0x1
+  * ConnectionRecord{92a218a u0 CR com.zui.xlog/.DeamonService:@f9a8ff5}
+    binding=AppBindRecord{1762dd2 com.zui.xlog/.DeamonService:com.zui.homesettings}
+    conn=android.os.BinderProxy@f9a8ff5 flags=0x1
+  * ConnectionRecord{3561519 u0 CR FGSA UI com.android.systemui/.ImageWallpaper:@fdcec60}
+    binding=AppBindRecord{e0944fe com.android.systemui/.ImageWallpaper:system}
+    conn=android.app.LoadedApk$ServiceDispatcher$InnerConnection@fdcec60 flags=0x22000001
+  * ConnectionRecord{c46f30d u0 CR com.moji.mjweather/com.moji.api.service.APIBGService:@ff779a4}
+    binding=AppBindRecord{f8ee9ae com.moji.mjweather/com.moji.api.service.APIBGService:com.moji.mjweather:pushservice}
+    conn=android.os.BinderProxy@ff779a4 flags=0x1
